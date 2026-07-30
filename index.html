@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thoughtfully Crafted, Beautifully Remembered</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Fonts for that luxurious aesthetic -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Lato:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Main Background (Where the water ripples happen) -->
+    <div class="ripple-background" id="ripple-bg">
+        
+        <!-- The Liquid Glass Panel -->
+        <div class="glass-container">
+            
+            <!-- Left Side: The Photo -->
+            <div class="photo-section">
+                <img src="576640e6-2c95-4a14-bba4-566318ef9a4c.jpg" alt="Us" class="vintage-photo">
+            </div>
+
+            <!-- Right Side: The Details -->
+            <div class="content-section">
+                <h1 id="welcome-text" class="gold-text fade-transition">Welcome</h1>
+                
+                <h2 class="tagline">Thoughtfully crafted, beautifully remembered.</h2>
+                
+                <p class="milestone-text">Together for <span id="months-together" class="gold-text">...</span> months and counting</p>
+                
+                <!-- The Ticking Countdown -->
+                <div class="countdown-grid">
+                    <div class="time-block"><span id="cd-years">0</span><small>Years</small></div>
+                    <div class="time-block"><span id="cd-months">0</span><small>Months</small></div>
+                    <div class="time-block"><span id="cd-weeks">0</span><small>Weeks</small></div>
+                    <div class="time-block"><span id="cd-days">0</span><small>Days</small></div>
+                    <div class="time-block"><span id="cd-hours">0</span><small>Hours</small></div>
+                    <div class="time-block"><span id="cd-minutes">0</span><small>Minutes</small></div>
+                    <div class="time-block"><span id="cd-seconds">0</span><small>Seconds</small></div>
+                </div>
+
+                <button class="unfold-btn">Unfold memories</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts for the Ripple Effect and Logic -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery.ripples@0.6.3/jquery.ripples.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+
